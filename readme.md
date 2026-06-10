@@ -1,7 +1,7 @@
-<h1>Desafio de projeto do Diego Santiago: Mario Kart.JS</h1>
-    <p> # 🏎️ Mario Kart.JS
-
-Simulação de corridas inspirada em Mario Kart desenvolvida em Node.js. O projeto utiliza regras personalizadas para determinar o vencedor de uma corrida baseada em velocidade, manobrabilidade e poder dos personagens.</p>
+<p>
+Simulação de corridas inspirada em Mario Kart desenvolvida em Node.js.
+O projeto utiliza regras personalizadas para determinar o vencedor de uma corrida baseada em velocidade, manobrabilidade e poder dos personagens.
+</p>
 
   <table>
         <tr>
@@ -104,3 +104,78 @@ Simulação de corridas inspirada em Mario Kart desenvolvida em Node.js. O proje
 
 <input type="checkbox" id="vitoria-item" />
 <label for="vitoria-item">Ao final, vence quem acumulou mais pontos</label>
+
+
+
+## 🚀 Tecnologias
+
+- Node.js
+- JavaScript
+- Git
+- GitHub
+
+
+
+## ▶️ Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/DiegoSantiago1/mario-kart-simulator.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd mario-kart-simulator
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm start
+```
+
+ou
+
+```bash
+node src/index.js
+```
+
+
+
+## 📋 Exemplo de execução
+
+```text
+🏁 Corrida iniciada!
+
+Mario x Bowser
+
+Rodada 1: RETA
+Mario rolou 4 + 4 = 8
+Bowser rolou 2 + 5 = 7
+
+Mario venceu a rodada!
+
+🏆 Vencedor: Mario
+```
+
+
+## 🎮 Regras do jogo
+
+- Corrida com 5 rodadas.
+- Cada rodada sorteia um tipo de pista.
+- RETA → usa velocidade.
+- CURVA → usa manobrabilidade.
+- CONFRONTO → usa poder.
+- O perdedor perde 1 ponto.
+- Nenhum jogador pode ficar com pontuação negativa.
+- Vence quem tiver mais pontos ao final.
+
+
