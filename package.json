@@ -1,0 +1,12 @@
+{
+  "name": "projeto_mario",
+  "version": "1.0.0",
+  "description": "my first node project",
+  "license": "ISC",
+  "author": "diego-santiago",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
