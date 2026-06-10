@@ -1,4 +1,7 @@
 <h1>Desafio de projeto do Diego Santiago: Mario Kart.JS</h1>
+    <p> # 🏎️ Mario Kart.JS
+
+Simulação de corridas inspirada em Mario Kart desenvolvida em Node.js. O projeto utiliza regras personalizadas para determinar o vencedor de uma corrida baseada em velocidade, manobrabilidade e poder dos personagens.</p>
 
   <table>
         <tr>
